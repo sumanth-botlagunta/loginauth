@@ -6,6 +6,13 @@ var cors = require('cors');
 app.use(cors());
 
 db;
+
+app.get('/', (req, res) => {
+    res.send("Welcome to the zomato server");
+    
+})
+
+
 const AuthController = require('./model/authcontroller');
 app.use('/api/auth',AuthController);
 
