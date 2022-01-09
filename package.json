@@ -4,6 +4,7 @@
   "description": "login logout authentication ",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon injex.js"
   },
   "author": "sumanth",
