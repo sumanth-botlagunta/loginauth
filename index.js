@@ -9,7 +9,7 @@ app.use(cors());
 
 
 
-const AuthController = require('./model/authcontroller');
+const AuthController = require('./auth/authcontroller');
 app.use('/api/auth',AuthController);
 
 app.listen(port,() => {
